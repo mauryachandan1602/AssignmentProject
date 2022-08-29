@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.chandan.assignment.listeners.Listener"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.chandan.assignment.home.TC001_MovieInfoValidation">
+        <methods>
+          <include name="endTest"/>
+          <include name="startReort"/>
+          <include name="beforeTest"/>
+          <include name="wikipMovieInfo"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.chandan.assignment.home.TC001_MovieInfoValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
